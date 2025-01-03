@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Power-Up</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Power-Up!</h1>
+    <p>Esta é a interface para o Power-Up do Trello.</p>
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
+    <script>
+        const t = TrelloPowerUp.iframe();
+        t.render(() => {
+            console.log('Power-Up renderizado');
+        });
+    </script>
+</body>
+</html>
